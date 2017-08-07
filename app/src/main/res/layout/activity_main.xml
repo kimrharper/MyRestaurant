@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context="com.example.ryanmain.myrestaurant.MainActivity"
+        android:background="#000000"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MyRestaurants"
+        android:layout_marginTop="35dp"
+        android:id="@+id/textView"
+        android:textColor="@color/colorTextIcons"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/restaurant"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/findRestaurantsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:background="@color/colorAccent"
+        android:text="Find Restaurants"
+        android:textColor="@color/colorTextIcons" />
+
+</RelativeLayout>
